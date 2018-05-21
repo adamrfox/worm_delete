@@ -1,0 +1,6 @@
+#!/bin/sh 
+
+export LANG="en_US.UTF-8"
+./wcu.py $1
+echo "Cleaning up Directories"
+rm -rf $1
